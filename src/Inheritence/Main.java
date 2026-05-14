@@ -12,7 +12,28 @@ public class Main {
 //        System.out.println(box3.l + " "+ box3.b + " " + box3.h);
 //        System.out.println(box4.l + " "+ box4.b + " " + box4.h);
         BoxWeight box = new BoxWeight(23,345,54,32);
+
         System.out.println(box.b+" "+ box.h + " " + box.l+ " "+ box.weight);
+//        Box box5 = new BoxWeight(l: 2, h: 3, w: 4, weight: 8) ;
+//        System.out.println(box5.w) ;
+
+        // there are many variables in both parent and child classes
+        // you are given access to variables that are in the ref type i.e. BoxWeight
+        // hence, you should have access to weight variable from boxWeight class
+        // this also means, that the ones you are trying to access should be initialised
+        // but here, when the obj itself is of type parent class, how will you call the
+//        BoxWeight box6 = new Box (l:1, 2h: 3w: 4 weight):
+//         BoxWeight box6 = new Box(1, 2, 3);
+//        System.out.println(box6) ;
+
+        BoxPrice bp = new BoxPrice();
+        bp.getSecret();
+        bp.setSecret(23);
+        bp.getSecret();
+
+
+
+
 
     }
 }

@@ -1,9 +1,9 @@
 package Inheritence;
 //Parent class
 public class Box {
-    int l;
-    int b;
-    int h;
+    double l;
+    double b;
+    double h;
 
     Box(){
         this.l = -1;
@@ -17,7 +17,7 @@ public class Box {
         this.h = side;
     }
 
-    Box(int l , int b , int h){
+    Box(double l , double b , double h){
         this.l = l;
         this.b = b;
         this.h = h;
