@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class CustomArrayList {
+    //this is only for int but we have to create for all
+    // we can create a template that in place of int[] we put T that is generic classs
+    // but this is not allowed so we use Object type i.e. Object data = new Object[];
+
+    // refer git hub
     private int[] data;
     private static int DEFAULT_SIZE = 10;
     private int size = 0;
